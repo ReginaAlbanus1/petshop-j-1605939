@@ -1,0 +1,13 @@
+server.port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://postgresql.lptn.com.br:5432/petshop
+    username: aluno
+    password: target123
+  jpa.hibernate.ddl-auto: update #create-drop, none, update, validate
+  jpa.show-sql: true
+
+logging.level:
+  org.springframework: ERROR
+  org.hibernate.SQL: DEBUG
